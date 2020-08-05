@@ -6,6 +6,13 @@ int main() {
 	int ch = 0;
 	int ct = 0;
 	srand((unsigned int)time(NULL));
+	char name[15];
+
+	printf("Who are you?\n");
+	printf(">");
+	scanf_s("%s", name,15);
+	printf("Hello, %s!\n", name);
+
 	printf("Tossing a coin...\n");
 	for (int i = 0;i < 3;i++) {
 		r = rand() % 2;
