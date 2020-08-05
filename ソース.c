@@ -27,5 +27,12 @@ int main() {
 			else printf("Rond %d: Error\n", i + 1);
 	}
 	printf("Heads: %d, Tails: %d\n",ch,ct);
+	/*if (ch > ct) {
+		printf("%s won\n",name);
+	}
+	else if (ch < ct) {
+		printf("%s lost\n",name);
+	}
+	else printf("Error\n");*/
 	return 0;
 }
